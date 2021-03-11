@@ -8,14 +8,11 @@ const Routes = () => {
             <Route exact path='/'>
                 <Test text="home" />
             </Route>
-            <Route path='/About'>
+            <Route path='/about'>
                 <Test text="about" />
             </Route>
-            <Route path='/category'>
-                <Test text="category" />
-            </Route>
-            <Route path='/products'>
-                <Test text="^rpduct" />
+            <Route path='/work'>
+                <Test text="work" />
             </Route>
             <Route >
                 <Test text="default" />

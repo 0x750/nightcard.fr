@@ -1,3 +1,5 @@
+import Jumbotron from 'react-bootstrap/Jumbotron';
+
 export default function Test({text}) {
-    return <p>{text}</p>;
+    return <Jumbotron><h1>{text}</h1></Jumbotron>;
 }
