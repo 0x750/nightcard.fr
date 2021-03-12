@@ -1,0 +1,13 @@
+.navigation {
+    background-color: rgb(255, 255, 255, .5);
+    transition: .3s;
+}
+
+.hover-nav {
+    opacity: 0;
+    transition: .3s;
+}
+
+/* .nav-brand {
+    font-family: 'Parisienne', cursive;
+} */

@@ -1,21 +1,24 @@
 import Test from './Test';
-import {Switch, Route} from 'react-router-dom';
-
+import Home from './Home';
+import {Switch, Route, Redirect} from 'react-router-dom';
 
 const Routes = () => {
     return (
         <Switch>
             <Route exact path='/'>
-                <Test text="home" />
+                <Home />
             </Route>
-            <Route path='/about'>
+            <Route exact path='/about'>
                 <Test text="about" />
             </Route>
-            <Route path='/work'>
-                <Test text="work" />
+            <Route exact path='/work'>
+                <Test text="work all" />
             </Route>
-            <Route >
-                <Test text="default" />
+            <Route exact path='/work/:id' render={
+                ({match}) => <Test text={"Work : " + match.params.id} />
+            } />
+            <Route path="*">
+                <Redirect to="/" />
             </Route>
         </Switch>
     );

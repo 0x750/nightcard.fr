@@ -1,0 +1,41 @@
+.front-page-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    /* min-height: 70vh; */
+    width: 100%;
+    z-index: -1;
+}
+
+.video-cover {
+    background-color: rgb(255, 255, 255, .5);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    transition: .5s;
+}
+
+.video-cover:hover {
+    opacity: 0;
+    transition: .5s;
+}
+
+.video-cover h1 {
+    /* font-weight: 700; */
+    padding-left: 1em;
+    font-size: 4em;
+    /* font-family: 'Parisienne', cursive; */
+    /* border-bottom: 1px solid; */
+    text-decoration: underline;
+}
+
+.video-cover h5 {
+    padding: 0 2em 0 2em;;
+}
+
+.presentation-block {
+    height: 1000px;
+    background-color: white;
+    width: 100%;
+}
