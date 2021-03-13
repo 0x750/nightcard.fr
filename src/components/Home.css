@@ -1,6 +1,6 @@
 .front-page-video {
     position: fixed;
-    top: 0;
+    top: 56px;
     left: 0;
     /* min-height: 70vh; */
     width: 100%;
@@ -37,5 +37,10 @@
 .presentation-block {
     height: 1000px;
     background-color: white;
+    margin-top: calc(56.25vw + 56px);
+    padding-top: 25px;
+}
+
+.presentation-block img {
     width: 100%;
 }

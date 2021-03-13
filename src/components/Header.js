@@ -11,8 +11,8 @@ import { LinkContainer } from 'react-router-bootstrap'
 
 const Header = () => {
     return (
-        <Navbar className ="justify-content-between navigation" expand="sm">
-            <Navbar.Brand className="nav-brand" >Nightcard</Navbar.Brand>
+        <Navbar className ="justify-content-between fixed-top navigation" expand="sm">
+            <Navbar.Brand className="nav-brand" ><img className="navbar-logo" src="logo.svg" alt="logo" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className ="justify-content-between">
                 <Nav className="">
