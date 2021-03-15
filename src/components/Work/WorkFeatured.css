@@ -1,0 +1,19 @@
+.work-featured {
+    border: 3px white solid;
+    cursor: crosshair;
+}
+
+.work-featured img {
+    width: 100%;
+}
+
+.work-featured h1 {
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.work-featured p {
+    color: white;
+}

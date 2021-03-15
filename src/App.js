@@ -7,14 +7,11 @@ import Routes from './components/Routes';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const App = () => {
-  return (
+const App = () =>
     <Router>
       <Header />
       <Routes />
       <Footer />
     </Router>
-  );
-}
 
 export default App;
