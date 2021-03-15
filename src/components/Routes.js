@@ -1,6 +1,6 @@
 import Test from './Test';
 import Home from './Home';
-import AboutFull from './AboutFull';
+import AboutFull from './About/AboutFull';
 import {Switch, Route, Redirect} from 'react-router-dom';
 
 const Routes = () => {

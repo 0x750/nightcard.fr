@@ -1,4 +1,4 @@
-import { Members } from './data/Members';
+import { Members } from '../data/Members';
 import About from './About'
 
 import './AboutFull.css';

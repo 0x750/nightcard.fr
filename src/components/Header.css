@@ -1,13 +1,22 @@
-.navigation {
+.navigation-light {
     background-color: rgb(255, 255, 255, .95);
-    /* transition: .3s; */
-    /* backdrop-filter: blur(10px); */
-}
-
-.hover-nav {
-    opacity: 0;
     transition: .3s;
 }
+
+.navigation-dark {
+    background-color: rgb(0, 0, 0, .95);
+    transition: .3s;
+}
+
+.navigation-dark .navbar-logo {
+    filter: invert(100%);
+}
+
+
+/* .hover-nav {
+    opacity: 0;
+    transition: .3s;
+} */
 
 .navbar-logo {
     height: 25px;
