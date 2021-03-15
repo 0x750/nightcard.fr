@@ -24,13 +24,10 @@ const Footer = () => {
                         </ul>
                     </Col>
                     <Col xs={6} md={4}>
-                        <h5 className="text-muted">Instagram</h5>
+                        <h5 className="text-muted">Social</h5>
                         <ul className="list-unstyled text-small">
-                            <li><a href="https://www.instagram.com/nighdez/" className="text-muted">@nighdez</a></li>
-                            <li><a href="https://www.instagram.com/amilxmub/" className="text-muted">@amilxmub</a></li>
-                            <li><a href="https://www.instagram.com/aymericdt/" className="text-muted">@aymericdt</a></li>
-                            <li><a href="https://www.instagram.com/carbo1000/" className="text-muted">@carbo1000</a></li>
-                            <li><a href="https://www.instagram.com/theobernardet/" className="text-muted">@theobernardet</a></li>
+                            <li><a href="mailto:contact@nightcard.fr" className="text-muted">Mail</a></li>
+                            <li><a href="https://instagram.com/nightcardproduction" className="text-muted">Instagram</a></li>
                         </ul>
                     </Col>
                 </Row>

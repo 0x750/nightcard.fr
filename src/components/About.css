@@ -1,0 +1,29 @@
+.about-profile-pic {
+    width: 100%;
+    filter: grayscale(1);
+    transition: .3s;
+}
+
+.about-profile-pic:hover {
+    filter: grayscale(0);
+    transition: .3s;
+}
+
+.about-container {
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+}
+
+.about-pic-name {
+    font-size: 4em;
+    position: relative;
+    top: -.8em;
+    text-shadow: white 0px 0px 10px,  white 0px 0px 10px;
+    text-align: end;
+    font-family: 'Caveat';
+    transform: rotate(-0.03turn);
+}
+
+.about-text {
+    /* border: 3px black dashed; */
+}

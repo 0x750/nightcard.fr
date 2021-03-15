@@ -1,5 +1,6 @@
 import Test from './Test';
 import Home from './Home';
+import AboutFull from './AboutFull';
 import {Switch, Route, Redirect} from 'react-router-dom';
 
 const Routes = () => {
@@ -9,7 +10,7 @@ const Routes = () => {
                 <Home />
             </Route>
             <Route exact path='/about'>
-                <Test text="about" />
+                <AboutFull />
             </Route>
             <Route exact path='/work'>
                 <Test text="work all" />
