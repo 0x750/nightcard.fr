@@ -36,7 +36,7 @@ const About = ({noMotion, slug, name, bio, instagramID, photo, inverse}) =>
                         </a>
                     </p>
                     <p>Titre ou fonction</p>
-                    <blockquote>{bio}</blockquote>
+                    <blockquote dangerouslySetInnerHTML={{__html: bio}}></blockquote>
                 </Col>
             </Row>
         </Fade>
