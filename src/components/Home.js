@@ -1,12 +1,19 @@
 import './Home.css';
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {
+    Container,
+    Row,
+    Col,
+} from 'react-bootstrap';
 
 const Home = () =>
     <>
-        <video className="front-page-video" autoPlay muted loop>
+        <video
+            className="front-page-video"
+            autoPlay
+            muted
+            loop
+        >
             <source src="video.mp4" type="video/mp4"></source>
         </video>
 

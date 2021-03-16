@@ -1,8 +1,10 @@
 import './Footer.css';
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+import {
+    Container,
+    Row,
+    Col,
+} from 'react-bootstrap';
 
 import { Link } from 'react-router-dom';
 
@@ -11,7 +13,7 @@ const Footer = () =>
         <Container>
             <Row>
                 <Col xs={12} md={4}>
-                    <img src="logo.svg" alt="logo" />
+                    <img src="/logo.svg" alt="logo" />
                     <small className="text-muted">© 2021 Nightcard</small>
                 </Col>
                 <Col xs={6} md={4}>

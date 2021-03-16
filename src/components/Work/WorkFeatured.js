@@ -1,18 +1,19 @@
 import './WorkFeatured.css';
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Badge from 'react-bootstrap/Badge';
+import {
+    Container,
+    Row,
+    Col,
+    Badge,
+} from 'react-bootstrap';
 
 const WorkFeatured = ({slug, title, image, description, tags}) =>
     <Container className="work-featured">
         <Row>
             <Col>
-                {tags.map((tag, idx) => {
-                    return (<><Badge id={idx} variant="light">{tag}</Badge>{' '}</>);
-                })}
-                <h1><Badge variant="warning">Featured</Badge>{' '}{title}</h1>
+                <Badge variant="warning">Featured</Badge>{' '}
+                {tags.map((tag, idx) => <><Badge id={idx} variant="light">{tag}</Badge>{' '}</>)}
+                <h1>{title}</h1>
             </Col>
         </Row>
         <Row>
