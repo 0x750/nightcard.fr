@@ -1,3 +1,25 @@
 .aboutAll {
     margin-top: 56px;
 }
+
+/* .aboutAll > div > h1 {
+    background-color: black;
+    color: white;
+} */
+
+/* .aboutAll > div > h1 {
+    background:
+        linear-gradient(currentColor 0 0) 0 100%,
+        linear-gradient(currentColor 0 0) 0 100%,
+        linear-gradient(currentColor 0 0) 100% 0,
+        linear-gradient(currentColor 0 0) 100% 0;
+    background-size: 20px 3px, 3px 20px;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    display: inline-block;
+    padding: 3px 7px 3px 7px;
+ }
+
+ .aboutAll > div > h1:hover {
+    background-position: 100% 100%, 0 0, 0 0, 100% 100%;
+ } */

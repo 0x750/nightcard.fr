@@ -28,3 +28,7 @@
     transform: rotate(-0.03turn);
     margin-bottom: -50px;
 }
+
+.about-container blockquote {
+    text-indent: 10px;
+}
