@@ -34,7 +34,7 @@ const Header = () => {
     }, [location]);
 
     return (
-        <Navbar className={"justify-content-between fixed-top " + navTheme} expand="sm">
+        <Navbar collapseOnSelect className={"justify-content-between fixed-top " + navTheme} expand="sm">
             <Navbar.Brand className="nav-brand"><img className="navbar-logo" src="/logo.svg" alt="logo"/></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav" className ="justify-content-between">

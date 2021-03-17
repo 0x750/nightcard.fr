@@ -1,17 +1,20 @@
-import './Home.css';
-
 import {
     Container,
     Row,
     Col,
 } from 'react-bootstrap';
 
+import './Home.css';
+
+
 const Home = () =>
     <>
         <video
             className="front-page-video"
             autoPlay
+            playsInline
             muted
+            defaultMuted
             loop
         >
             <source src="video.mp4" type="video/mp4"></source>

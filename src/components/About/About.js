@@ -14,7 +14,7 @@ import './About.css';
 
 const About = ({noMotion, slug, name, bio, instagramID, photo, inverse}) =>
     <Container className="about-container">
-        <Fade bottom delay={200} duration={noMotion ? 0 : 500}>
+        <Fade delay={200} duration={noMotion ? 200 : 500}>
             <Row style={{minHeight: '600px'}}>
                 <Col md={{span: 4, order: inverse ? 'last' : 'first'}} xs={12}>
                     <img className="about-profile-pic" src={photo} alt={name} />

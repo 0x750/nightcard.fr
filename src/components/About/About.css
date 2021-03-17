@@ -9,9 +9,9 @@
     transition: .3s;
 }
 
-.about-container {
+/* .about-container {
     margin-top: 10px;
-}
+} */
 
 .about-container h1:hover {
     text-decoration: underline;
@@ -26,4 +26,5 @@
     text-align: end;
     font-family: 'Caveat';
     transform: rotate(-0.03turn);
+    margin-bottom: -50px;
 }
