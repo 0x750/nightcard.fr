@@ -32,7 +32,7 @@ const Header = () => {
             setNavTheme('navigation-light');
             setIconsColor('rgba(0, 0, 0, 0.5)')
         }
-    }, [location]);
+    }, [location.pathname]);
 
     return (
         <Navbar collapseOnSelect className={"justify-content-between fixed-top " + navTheme} expand="sm">

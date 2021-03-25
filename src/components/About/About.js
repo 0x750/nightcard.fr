@@ -18,7 +18,7 @@ const About = ({noMotion, slug, name, bio, instagramID, photo, inverse}) =>
             <Row style={{minHeight: '600px'}}>
                 <Col md={{span: 4, order: inverse ? 'last' : 'first'}} xs={12}>
                     <img className="about-profile-pic" src={photo} alt={name} />
-                    <div className="about-pic-name">{name.short}</div>
+                    {/* <div className="about-pic-name">{name.short}</div> */}
                 </Col>
                 <Col md={8} xs={12} className="about-text">
                     <LinkContainer to={`/about/${slug}`}>

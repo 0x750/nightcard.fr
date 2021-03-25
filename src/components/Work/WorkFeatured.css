@@ -1,19 +1,9 @@
 .work-featured {
-    border: 3px white solid;
-    cursor: crosshair;
+    min-height: 40px;
+    /* padding: 10px; */
 }
 
-.work-featured img {
-    width: 100%;
+.featured-video {
+    Width: 100%;
 }
 
-.work-featured h1 {
-    color: white;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-}
-
-.work-featured p {
-    color: white;
-}
