@@ -1,10 +1,10 @@
 import './WorkFull.css';
-// eslint-disable-next-line
-import WorkFeatured from './WorkFeatured';
-// eslint-disable-next-line
-import { Work } from '../data/Work';
 
-const WorkFull = () =>
+// import WorkFeatured from './WorkFeatured';
+
+// import Work from '../data/Work';
+
+const WorkFull: React.FunctionComponent = () =>
     <article className="workFull">
         {/* <WorkFeatured {...Work[0]} /> */}
         {'test'}

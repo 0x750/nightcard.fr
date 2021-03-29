@@ -1,4 +1,16 @@
-export const Members = [
+export interface IMember {
+    slug: string;
+    name: {
+        short: string;
+        full: string;
+        nickname?: string;
+    };
+    bio: string;
+    instagramID: string;
+    photo: string;
+}
+
+const Members: IMember[] = [
     {
         slug: "Theo",
         name: {
@@ -55,3 +67,5 @@ export const Members = [
         photo: "/images/exemple.jpg"
     },
 ];
+
+export default Members;

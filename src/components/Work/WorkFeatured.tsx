@@ -7,10 +7,19 @@ import {
     // Badge,
 } from 'react-bootstrap';
 
+import { IWork } from '../data/Work';
+
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-const WorkFeatured = ({color, slug, title, image, description, tags}) =>
+const WorkFeatured: React.FunctionComponent<IWork> = ({
+    color,
+    slug,
+    title,
+    image,
+    description,
+    tags
+}: IWork) =>
     <Container style={{backgroundColor: color}} className="work-featured">
         <Row>
             <Col md={5} xs={12}>
@@ -19,7 +28,6 @@ const WorkFeatured = ({color, slug, title, image, description, tags}) =>
                     autoPlay
                     playsInline
                     muted
-                    defaultMuted
                     loop
                 >
                     <source src={image} type="video/mp4"></source>

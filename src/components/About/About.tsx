@@ -4,20 +4,34 @@ import {
     Container,
     Row,
     Col,
-    // Badge,
 } from 'react-bootstrap';
 
 import { Fade } from 'react-reveal';
 import { LinkContainer } from 'react-router-bootstrap';
 
+import { IMember } from '../data/Members';
+
 import './About.css';
 
-const About = ({noMotion, slug, name, bio, instagramID, photo, inverse}) =>
+export interface AboutProps extends IMember {
+    noMotion: boolean;
+    inverse: boolean;
+};
+
+const About: React.FunctionComponent<AboutProps> = ({
+    slug,
+    name,
+    bio,
+    instagramID,
+    photo,
+    noMotion,
+    inverse
+}: AboutProps) =>
     <Container className="about-container">
         <Fade delay={200} duration={noMotion ? 200 : 500}>
             <Row style={{minHeight: '600px'}}>
                 <Col md={{span: 4, order: inverse ? 'last' : 'first'}} xs={12}>
-                    <img className="about-profile-pic" src={photo} alt={name} />
+                    <img className="about-profile-pic" src={photo} alt={name.short} />
                     {/* <div className="about-pic-name">{name.short}</div> */}
                 </Col>
                 <Col md={8} xs={12} className="about-text">

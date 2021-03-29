@@ -7,7 +7,7 @@ import Routes from './components/Routes';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 
-const App = () =>
+const App: React.FunctionComponent = () =>
     <Router>
       <Header />
       <Routes />

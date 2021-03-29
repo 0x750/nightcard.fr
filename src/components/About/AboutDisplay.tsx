@@ -1,8 +1,8 @@
-import About from './About';
+import About, { AboutProps } from './About';
 
 import './AboutDisplay.css';
 
-const AboutDisplay = (props) =>
+const AboutDisplay: React.FunctionComponent<AboutProps> = (props: AboutProps) =>
     <div className="about-display">
         <About {...props} noMotion/>
     </div> 

@@ -18,11 +18,11 @@ import {
 import { LinkContainer } from 'react-router-bootstrap';
 import { useLocation } from 'react-router-dom';
 
-const Header = () => {
+const Header: React.FunctionComponent = () => {
 
     let location = useLocation();
-    let [navTheme, setNavTheme] = useState('navigation-light');
-    let [iconsColor, setIconsColor] = useState('rgba(0, 0, 0, 0.5)');
+    let [navTheme, setNavTheme] = useState<string>('navigation-light');
+    let [iconsColor, setIconsColor] = useState<string>('rgba(0, 0, 0, 0.5)');
 
     useEffect(() => {
         if(location.pathname === '/work') {

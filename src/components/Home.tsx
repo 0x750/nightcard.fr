@@ -9,15 +9,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 import './Home.css';
 
-
-const Home = () =>
+const Home: React.FunctionComponent = () =>
     <>
         <video
             className="front-page-video"
             autoPlay
             playsInline
             muted
-            defaultMuted
             loop
         >
             <source src="video.mp4" type="video/mp4"></source>
