@@ -21,7 +21,7 @@ const Footer: React.FunctionComponent = () =>
                     <ul className="list-unstyled text-small">
                         <li><Link className="text-muted" to="/">Home</Link></li>
                         <li><Link className="text-muted" to="/work">Work</Link></li>
-                        <li><Link className="text-muted" to="/about">About us</Link></li>
+                        <li><Link className="text-muted" to="/about">About</Link></li>
                     </ul>
                 </Col>
                 <Col xs={6} md={4}>

@@ -48,7 +48,7 @@ const Header: React.FunctionComponent = () => {
                             <Nav.Link>Work</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to="/about">
-                            <Nav.Link>About us</Nav.Link>
+                            <Nav.Link>About</Nav.Link>
                         </LinkContainer>
                     </Nav>
                     <Navbar.Text>
